@@ -100,7 +100,7 @@ div.background {
     box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
     padding: 15px 40px;
     width: 550px;
-    height: 220px;
+    height: 240px;
     position: relative;
 }
 
@@ -122,7 +122,7 @@ div.background p {
 div.hero-background-pos {
     position: absolute;
     right: 0px;
-    left: 66%;
+    left: 67%;
     background: #fff;
     width: 140px;
     height: 140px;
@@ -198,7 +198,6 @@ div.circle {
     border-radius: 50%;
     background: #bcc3c7;
     margin-top: 2rem;
-    
 }
 
 div.box1 h5 {
@@ -344,4 +343,178 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+    div.nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100vw;
+    }
+
+    div.logo {
+        font-size: 1.3rem;
+    }
+
+    ul.nav-links {
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+
+    ul li {
+        margin:0;
+        font-size: 1rem;
+    }
+
+    ul li a {
+        display: block;
+    }
+
+    div.hero-section {
+        background: #304353;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 0.9rem;
+    }
+
+    div.hero-content-heading p {
+        font-size: 10px;
+    }
+
+    div.hero-background-pos {
+        display: none;
+    }
+
+    div.snapshot-team h2 {
+        font-size: 1.2rem;
+    }
+
+    div.snapshot-team p {
+        font-size: 0.8rem;
+    }
+    div.snapshot-box {
+        padding: 2rem 0rem;
+    }
+
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.gallery-section {
+        padding: 2rem;
+    }
+
+    div.gallery-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.gallery-content p {
+        font-size: 0.8rem;
+    }
+
+    div.footer {
+        align-items: center;
+    }
+
+    div.footer-content h4 {
+        font-size: 1.2rem;
+    }
+
+    div.footer-content p {
+        font-size: 0.8rem;
+    }
+
+    input[type="text"] {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    input[type="email"] {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+    }
+
+    div.footer h6 {
+        font-size: 0.8rem;
+        padding-top: 6rem;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    div.hero-background-pos {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.background{
+        width: 550px;
+        height: 340px;
+        padding: 10px 30px;
+    }
+
+    ul.nav-links {
+      display: none;
+    }
+
+    div.hero-section {
+        padding: 5rem 2rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 10px;
+    }
+
+    div.hero-content-heading p {
+        font-size: 10px;
+    }
+
+    div.hero-background{
+        padding-top: 5rem;
+    }
+
+    div.snapshot-box-content {
+        pdding-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    div.background{
+        width: 550px;
+        height: 340px;
+    }
+
+    ul.nav-links {
+        display: none;
+      }
+
+    div.hero-section {
+        padding: 5rem 2rem;
+    }
+
+    div.hero-content-heading h3 {
+        font-size: 10px;
+    }
+
+    div.hero-content-heading p {
+        font-size: 0.5rem;
+    }
+
+    div.hero-content-btn a {
+        background: #E44C65;
+        text-decoration: none;
+        color: #bcc3c7;
+        font-size: 0.5rem;
+        padding: 5px 15px;
+        border-radius: 3px;
+    }
 }
