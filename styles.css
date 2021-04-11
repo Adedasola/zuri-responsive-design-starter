@@ -458,9 +458,15 @@ div.footer h6 {
 @media screen and (max-width: 425px) {
     div.background{
         width: 550px;
-        height: 340px;
+        height: 350px;
         padding: 10px 30px;
     }
+
+    div.background p {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+    
 
     ul.nav-links {
       display: none;
@@ -490,7 +496,13 @@ div.footer h6 {
 @media screen and (max-width: 375px) {
     div.background{
         width: 550px;
-        height: 340px;
+        height: 350px;
+        padding: 10px 30px;
+    }
+
+    div.background p {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
     }
 
     ul.nav-links {
